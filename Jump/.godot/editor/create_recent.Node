@@ -1,0 +1,15 @@
+AudioStreamPlayer
+Node
+VisibleOnScreenNotifier2D
+TextureButton
+Label
+TextureRect
+Control
+ColorRect
+CanvasLayer
+AnimationPlayer
+VBoxContainer
+ScrollContainer
+Button
+Sprite2D
+ParallaxLayer

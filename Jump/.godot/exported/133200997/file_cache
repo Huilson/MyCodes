@@ -1,0 +1,13 @@
+res://scenes/player.tscn::d20cf67747d1f53f55818d4c6bbb1520::1711397542::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/main.tscn::72eaaad2f69650cbcf18d143de6f0933::1711397543::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/game.tscn::dcc5749c478a92806b0e0427e3198849::1711397542::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/plataform.tscn::f4ac2a0697f56aa6bad18f38b8a6e624::1711397542::res://.godot/exported/133200997/export-07b6bb6739619f672dcb3fe9139d6898-plataform.scn
+res://scenes/camera.tscn::a5b1794ed33b98df0e94ed236e3e08bd::1711397542::res://.godot/exported/133200997/export-171b6540a4c3cdae5b0905e52ed5116f-camera.scn
+res://scenes/generator.tscn::82a43c480ae97753d76719eceb4537c6::1711397543::res://.godot/exported/133200997/export-ad12ad5a057b217b389440eab57ef220-generator.scn
+res://scenes/screens.tscn::4903a667fb21b27389e5b3a785f3a0dd::1711397543::res://.godot/exported/133200997/export-f4dd2558d8e192684fbae2f0a4360311-screens.scn
+res://scenes/pause.tscn::fca61d1f661f1e6ef19fe107616d5b67::1711384788::res://.godot/exported/133200997/export-877dd510dd31eb0f29670ab72328164d-pause.scn
+res://scenes/game_over.tscn::ac816b0c02e45b7aaefbbd86dc16a550::1711397543::res://.godot/exported/133200997/export-21b8bee24a2bf9e9929bc898cc82b612-game_over.scn
+res://scenes/hud.tscn::6ca187822354adbaeca5dab372008f4c::1711397543::res://.godot/exported/133200997/export-38bf74ff262409a94a41206b2b776d33-hud.scn
+res://scenes/sound.tscn::0e46851b0be25a0da140a08fdb9ab69a::1711397543::res://.godot/exported/133200997/export-5e5f7e76de21ae911188999fccd41fc6-sound.scn
+res://scenes/sreen_button.tscn::d74f4add7635f40931b2506a503cd4c5::1711384788::res://.godot/exported/133200997/export-43d2372b6d49665f353488cdd380545c-sreen_button.scn
+res://scenes/title.tscn::a049da593b65b10a057147a861fd5548::1711384788::res://.godot/exported/133200997/export-1f317455290310368203a73618de45af-title.scn

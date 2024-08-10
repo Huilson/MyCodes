@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MinhaBomba2</string>
+    <string name="add">Adicionar</string>
+    <string name="titleApp">Minha Bomba</string>
+    <string name="refresh">Atualizar</string>
+    <string name="error_loading">Não foi possível carregar!</string>
+    <string name="error_icon">Error ao carregar</string>
+    <string name="try_again">Tente novamente!</string>
+    <string name="select">Selecionar</string>
+    <string name="loading">Carregando...</string>
+    <string name="details_text">Detalhes do Abastecimento</string>
+    <string name="back">Voltar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="error_deleting">Não foi póssivel fazer a exclusão</string>
+    <string name="edit_item">Editar Registro</string>
+    <string name="new_item">Novo Abastecimento</string>
+    <string name="save">Salvar</string>
+    <string name="valid_field_message">Este campo é obrigatório!</string>
+    <string name="error_fueling">Erro ao salvar abastecimento</string>
+</resources>

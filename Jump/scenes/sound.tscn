@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dceleyg4t2310"]
+
+[ext_resource type="Script" path="res://scripts/MySound.gd" id="1_el0ta"]
+
+[node name="SoundFX" type="Node"]
+process_mode = 3
+script = ExtResource("1_el0ta")
+
+[node name="Sound_1" type="AudioStreamPlayer" parent="."]
+
+[node name="Sound_2" type="AudioStreamPlayer" parent="."]
+
+[node name="Sound_3" type="AudioStreamPlayer" parent="."]
+
+[node name="Sound_4" type="AudioStreamPlayer" parent="."]
+
+[node name="Sound_5" type="AudioStreamPlayer" parent="."]

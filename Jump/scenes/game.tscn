@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=3 uid="uid://d25gwphojfy1m"]
+
+[ext_resource type="Script" path="res://scripts/MyGame.gd" id="1_1koam"]
+[ext_resource type="PackedScene" uid="uid://bhhvlwolkyrm4" path="res://scenes/generator.tscn" id="3_8ohg8"]
+[ext_resource type="Texture2D" uid="uid://cnf1hssav8xkq" path="res://assets/textures/bg/Ground.png" id="3_rs3m0"]
+[ext_resource type="Texture2D" uid="uid://bw3to5ewsmn1k" path="res://assets/textures/bg/Layer1.png" id="4_a1inl"]
+[ext_resource type="Texture2D" uid="uid://c4h2dtpppr36k" path="res://assets/textures/bg/Layer2.png" id="5_m2nnt"]
+[ext_resource type="Texture2D" uid="uid://eaj3ek1x06s5" path="res://assets/textures/bg/Layer3.png" id="6_shnvb"]
+[ext_resource type="PackedScene" uid="uid://mwns2k8n0yf0" path="res://scenes/hud.tscn" id="7_w6vr3"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_1koam")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxFar" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.1, 0.1)
+motion_mirroring = Vector2(0, 1935)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxFar"]
+scale = Vector2(0.675, 0.675)
+texture = ExtResource("4_a1inl")
+centered = false
+
+[node name="ParallaxMiddle" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(0, 1935)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxMiddle"]
+scale = Vector2(0.675, 0.675)
+texture = ExtResource("5_m2nnt")
+centered = false
+
+[node name="ParallaxNear" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.85, 0.85)
+motion_mirroring = Vector2(0, 1935)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxNear"]
+scale = Vector2(0.675, 0.675)
+texture = ExtResource("6_shnvb")
+centered = false
+
+[node name="UILayer" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="HUD" parent="UILayer" instance=ExtResource("7_w6vr3")]
+
+[node name="LevelGenerator" parent="." instance=ExtResource("3_8ohg8")]
+
+[node name="GroundSprite" type="Sprite2D" parent="."]
+z_index = -10
+position = Vector2(270, 960)
+scale = Vector2(1, 0.7)
+texture = ExtResource("3_rs3m0")
+offset = Vector2(0, -61)
