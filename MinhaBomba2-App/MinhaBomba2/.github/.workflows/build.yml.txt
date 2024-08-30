@@ -1,0 +1,9 @@
+# Note: In a yml each level is padded by 2 spaces
+name: Android
+on:
+  # Runs this action when you push on master
+  push:
+    branches: [ "master" ]
+  # Runs this when a PR against master is created
+  pull_request:
+    branches: [ "master" ]
